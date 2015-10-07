@@ -1,0 +1,17 @@
+{
+  "name": "FxOS-J5 Demo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icon_128.png"
+  },
+  "description": "A Johnny Five demo on Firefox OS",
+  "default_locale": "en-US",
+  "orientation": "default",
+  "type": "privileged",
+  "permissions" : {
+    "tcp-socket" : {
+      "description" : "Create TCP sockets and communicate over them."
+    }
+  },
+  "csp" : "default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' 'unsafe-eval'"  
+}
